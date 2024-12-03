@@ -32,7 +32,9 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
+.nav-web {
+  color: #2e2f42;
+}
 .nav-link {
   color: #2e2f42;
   list-style-type: none;
