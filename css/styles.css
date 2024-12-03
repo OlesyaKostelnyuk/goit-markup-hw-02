@@ -101,7 +101,6 @@ button {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
-  border: none;
 }
 .button-order:focus {
   background-color: #404bbf;
@@ -200,11 +199,7 @@ button {
 }
 
 .section-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .section1--btn {
@@ -214,7 +209,6 @@ button {
   letter-spacing: 0.04em;
   color: var(--light-color);
   background-color: var(--primary-color);
-  margin-top: 16px;
 }
 
 .section1--btn:hover,
