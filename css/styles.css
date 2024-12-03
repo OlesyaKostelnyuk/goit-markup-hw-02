@@ -22,7 +22,7 @@ button {
   padding: 0;
 }
 
-/* ======= Header ======= */
+/*  #region Header  */
 .header-page {
   border-bottom: 1px solid #e7e9fc;
   max-width: 1440px;
@@ -89,8 +89,15 @@ button {
 }
 
 /* #endregion Header */
+
+/* #region section1 */
+
 .section1-- {
   background-color: #2e2f42;
+}
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 .section-title {
   font-weight: 700;
@@ -113,6 +120,18 @@ button {
   background-color: #404bbf;
 }
 
+/* #endregion section1 */
+
+/* #region section2 */
+/* #endregion section2 */
+
+/* #region section3 */
+/* #endregion section3 */
+
+/* #region section4 */
+/* #endregion section4 */
+
+/* #region Footer */
 .footer {
   background: #2e2f42;
 }
@@ -136,3 +155,5 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* #endregion Footer */
