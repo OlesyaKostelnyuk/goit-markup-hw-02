@@ -9,10 +9,9 @@
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--body-bg-color);
-  margin: 0;
+  background-color: #ffffff;
 }
 
 a {
@@ -33,69 +32,70 @@ button {
 }
 
 /*  #region Header  */
-.header-page {
-  border-bottom: 1px solid #e7e9fc;
-  max-width: 1440px;
-  width: 100%;
-  height: 72px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 32px;
-}
-
-.header-logo {
-  font-family: var(--second-family);
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: #4d5ae5;
 }
 
-.header-color {
-  color: var(--text-color);
+.logo-style {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .nav-list {
-  display: flex;
-  gap: 24px;
-}
-
-.nav-item,
-.nav-item-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #2e2f42;
+}
+
+.nav-item {
+  color: #2e2f42;
+}
+
+.nav-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: currentColor;
 }
 
 .nav-item-link:hover,
 .nav-item-link:focus {
-  color: var(--secondary-color);
+  color: #404bbf;
 }
 
-.header-address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.address {
+  font-style: normal;
 }
 
-.address-link {
+.mail_tel {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: var(--secondary-color);
+.mail {
+  color: currentColor;
+}
+
+.mail:hover,
+.mail:focus {
+  color: #404bbf;
 }
 
 /* #endregion Header */
